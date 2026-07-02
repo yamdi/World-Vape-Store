@@ -1,0 +1,49 @@
+{
+  "categories": [
+    { "id": "cat1", "name": "Disposable Vapes", "sortOrder": 0 },
+    { "id": "cat2", "name": "Pod Kits", "sortOrder": 1 },
+    { "id": "cat3", "name": "E-Liquids", "sortOrder": 2 },
+    { "id": "cat4", "name": "Coils", "sortOrder": 3 },
+    { "id": "cat5", "name": "Mods", "sortOrder": 4 },
+    { "id": "cat6", "name": "Accessories", "sortOrder": 5 }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "categoryId": "cat1",
+      "name": "Elf Bar BC5000",
+      "description": "Disposable, 5000 puffs, rich flavor",
+      "price": 35,
+      "imageUrls": [],
+      "active": true,
+      "sortOrder": 0,
+      "variants": [
+        { "id": "v1_1", "label": "20mg", "priceOverride": null, "stockQty": 12 },
+        { "id": "v1_2", "label": "50mg", "priceOverride": null, "stockQty": 8 }
+      ]
+    },
+    {
+      "id": "p2",
+      "categoryId": "cat2",
+      "name": "Vaporesso XROS 3",
+      "description": "Pod kit, 1000mAh, adjustable airflow",
+      "price": 65,
+      "imageUrls": [],
+      "active": true,
+      "sortOrder": 1,
+      "variants": [
+        { "id": "v2_1", "label": "Standard", "priceOverride": null, "stockQty": 5 }
+      ]
+    }
+  ],
+  "settings": {
+    "hours": "Open until 10 PM",
+    "address": "Rue Ibn Khaldoun, intersection 105, 2041, Cebalat, Tunisia",
+    "phone": "+216 22 522 594",
+    "whatsappNumber": "21622522594",
+    "heroText": "Curated selection of disposables, pod kits, coils, and accessories. Order via WhatsApp & pickup locally.",
+    "heroImage": "",
+    "facebookUrl": "https://www.facebook.com/profile.php?id=100063930289533",
+    "logoImage": ""
+  }
+}
